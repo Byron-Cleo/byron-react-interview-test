@@ -1,6 +1,6 @@
 # Getting Started with React Interview Technical Assesment
 
-## Available Scripts
+## Project Documentation
 
 1. First create an empty folder in any location in your computer. Ensure your is installed in your machine to run the node p
    packages for this project.
