@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import LayoutOne from './components/LayoutOne';
+import HomeScreen from './screens/HomeScreen';
+import MostViewedListScreen from './screens/MostViewedListScreen';
+import MostViewedDetailScreen from './screens/MostViewedDetailScreen';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route
+            path={['/most-viewed/:id/details', '/most-viewed-articles', '/']}
+          >
+            <LayoutOne>
+              <Switch>
+                <Route
+                  path="/most-viewed/:id/details"
+                  component={MostViewedDetailScreen}
+                />
+                <Route
+                  path="/most-viewed-articles"
+                  component={MostViewedListScreen}
+                />
+                <Route path="/" component={HomeScreen} />
+              </Switch>
+            </LayoutOne>
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 
