@@ -2,7 +2,7 @@
 
 ## Project Documentation
 
-1. First create an empty folder in any location in your computer. Ensure your is installed in your machine to run the node p
+1. First create an empty folder in any location in your computer. Ensure yarn is installed in your machine to run the node p
    packages for this project.
 
 2. Clone the repository in the folder of destination by using this link:[https://github.com/Byron-Cleo/byron-react-interview-test.git](https://github.com/Byron-Cleo/byron-react-interview-test.git)
