@@ -1,4 +1,4 @@
-# Getting Started with React Interview Technical Assesment
+# Getting Started with React Interview Technical Assesment(Byron Ochara)
 
 ## Project Documentation
 
