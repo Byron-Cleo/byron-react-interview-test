@@ -22,4 +22,4 @@
 It correctly bundles React in production mode and optimizes the build for the best performance.
 - Then finally the app is ready for production and  is ready to be deployed!
 
-5. NB: SPECIAL FEATURE: The project is setup with redux for statement to enhance scalability and data management for the appliation.
+5. NB: SPECIAL FEATURE: The project is setup with redux for state to enhance scalability and data management for the appliation.
