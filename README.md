@@ -11,14 +11,14 @@
 
 ### `yarn start`
 
--The commanf runs the app in the development mode. Hence by opening
+-The command runs the app in the development mode. Hence by opening
 -Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 4. To buid the app for production, you can run:
 
 ### `yarn build`
 
--This commonad builds the app for production to the `build` folder.\
+-This command builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 - Then finally the app is ready for production and  is ready to be deployed!
 
